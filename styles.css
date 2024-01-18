@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+/* Home Layout*/
+body{
+    margin: 0; background-color: #eef;
+}
+header{
+    text-align: center; background-color: #cce; overflow: auto;
+}
+
+/* Navigation */
+nav{
+    overflow: auto; background-color: #bcd;
+}
+nav ul{
+    list-style-type: none; margin: 0; padding: 0;
+}
+nav li{
+    float: right;
+}
+nav li a:link, nav li a:visited{
+    display: inline-block; padding: 10px; text-decoration: none; color: black;
+}
+nav li a:hover:not(.active){
+    background-color: black; color: white;
+}
+.active{
+    background-color: coral;
+}
+
+/* Top- Nav */
+#top-nav{
+    overflow-x: auto;
+}
+#top-nav ul{
+    list-style-type: none; padding: 3px 10px; margin: 0; min-width: 800px; background-color: #b6b6b6;
+}
+#top-nav li{
+    display: inline-block;
+}
+#top-nav a:link, #top-nav a:visited{
+    display: block; padding: 5px; text-decoration: none; border-right: 1px solid gray; border-radius: 7px;
+}
+#top-nav a:hover{
+    background-color: black; color: white;
+}
+
+/* Section */
+section{
+    min-height: 600px; width: 100%; background-color: #eee; max-width: 1400px; margin: auto;
+}
+
+main{
+    border: 1px solid gray;
+}
+
+/* Footer */
+footer{
+    background-color: gray; overflow: auto;
+}
